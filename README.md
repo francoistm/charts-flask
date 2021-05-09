@@ -5,7 +5,6 @@
 2. [Installation Windows](#Installation-Windows)
 3. [Figure](#Figure)
 4. [Context](#Context)
-5. [Documents annexes](#Documents-annexes)
 
 ## Installation Linux et macOS
 #### /!\ Important avant de commancer /!\ 
@@ -94,15 +93,3 @@ Et voilà!
 La ferme des trois chênes est une exploitation laitière et agricole. La gestion d’une telle exploitation ne s’improvise pas et nécessite une certaine organisation. Pour moderniser la gestion de la ferme, Mr. et Mme. Verhaeghe ont fait appel à nos services.
 
 Vous aurez à votre disposition, dès la semaine 8, une base de données décrivant tous les animaux qui ont un jour vécu à la ferme depuis sa création en 1990. Ces données comprennent la liste des animaux, la liste des naissances, la race de certains animaux, les familles des vaches, etc. Votre mission consistera à créer un site web qui présente certaines informations dérivées de ces données et utiles à Mr. et Mme. Verhaeghe. Votre site web sera responsable de l’extraction de données pertinentes de la base de données, du calcul de statistiques de ces données, et de l’affichage du résultat sur une page web, soit en tableau, ou via un graphe. La [page suivante](http://linfo1002.eu.pythonanywhere.com) montre un exemple simple de résultat utile à la famille Verhaeghe.
-
-<hr>
-
-## Documents annexes
-* [Projet 2 - Instructions](http://renaud-detry.net/teaching/1002/projet2inst.html)
-* [La ferme des 3 Chênes](http://renaud-detry.net/teaching/1002/projet2.html)
-* [Le world wide web (www)](http://renaud-detry.net/teaching/1002/web.html)
-* [Le language HTML](http://renaud-detry.net/teaching/1002/html.html)
-* [Les bases de données SQL](http://renaud-detry.net/teaching/1002/sql.html)
-* [La visualisation via chart.js](http://renaud-detry.net/teaching/1002/chartjs.html)
-* [Le framework flask](http://renaud-detry.net/teaching/1002/flask.html)
-* [Tutoriel flask](https://sites.uclouvain.be/P2SINF/flask/tutorial/index.html#tutorial)
