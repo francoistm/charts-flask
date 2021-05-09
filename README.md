@@ -1,13 +1,13 @@
 # Projet P2 - La ferme des 3 Chênes 🐮
 
 ## Table des matières
-1. [Installation Linux](#Installation Linux)
-2. [Installation Windows](#Installation Windows)
-3. [Figure choisi](#Figure choisi)
+1. [Installation Linux et macOS](#Installation-Linux-et-macSO)
+2. [Installation Windows](#Installation-Windows)
+3. [Figure](#Figure)
 4. [Context](#Context)
-5. [Documents annexes](#Documents annexes)
+5. [Documents annexes](#Documents-annexes)
 
-## Installation Linux / macOS
+## Installation Linux et macOS
 #### /!\ Important avant de commancer /!\ 
 > Avant de commencer, vérifier que vous avez bien installé python3, git, pip (il est nativement présent dans python3) et virtualenv sur votre ordinateur.
 
@@ -75,7 +75,7 @@ Et voilà!
 
 <hr>
 
-## Figures choisi
+## Figures
 1. Une croyance populaire chez certains éleveurs est que les naissances arrivent plus souvent à la pleine lune.
     > 1.1 Est-ce vrai ou pas ? Produire une heat map ou bar chart sur 28 jours avec le % de vêlage.
 
