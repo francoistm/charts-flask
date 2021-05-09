@@ -1,3 +1,5 @@
+#!/bin/python3
+
 import sqlite3 as sql
 from flask import Flask, render_template, g
 from datetime import datetime, date, timedelta
