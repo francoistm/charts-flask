@@ -1,0 +1,23 @@
+html {
+  font-family: 'Helvetica', 'sans-serif';
+}
+
+body {
+  margin : 0;
+  padding : 0;
+  background-color: ivory;
+  background-size: cover;
+}
+
+h1 h2 {
+  color: teal;
+}
+
+main {
+  padding: 2% 10%;
+  width: auto;
+}
+
+section {
+  margin-bottom: 60px;
+}

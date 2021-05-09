@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'design.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <!-- scripts -->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='js/popper.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>La Ferme des Trois Chênes - Données</title>
+</head>
+<body>
+    <div class="wrapper d-flex align-items-stretch">
+            <!-- sidebar -->
+			<nav id="sidebar">
+                <!-- menu -->
+				<div class="p-4 pt-5">
+		  		    <h1><a href="/" class="logo">Projet 2</a></h1>
+                    <ul class="list-unstyled components mb-5">
+                        <li class="active">
+                            <a href="#section_1">Graphique 1</a>
+                        </li>
+                        <li>
+                            <a href="#section_2">Graphique 2</a>
+                        </li>
+                        <li>
+                            <a href="#section_3">Graphique 3</a>
+                        </li>
+                        <li>
+                            <a href="#section_4">Graphique 4</a>
+                        </li>
+                    </ul>
+                </div>
+    	    </nav>
+            <!-- content -->
+            <main>
+                <!-- header -->
+                <header>
+                    <h1>La ferme des Trois chênes 🐄</h1>
+                    <h4>Résumé</h4>
+                    <p>Vous trouverez de nombreuses information sur notre site internet concernant nos animaux.</p>
+                    <ul>
+                        <li>Une légende dit que les naissances arrivent plus souvent les jours de pleine lune. Notre premier
+                            graphique représente donc le pourcentage de vêlage en fonction des jours sur une période de 28 jours.
+                            Le deuxième graphe représente le taux de mortalité à la naissance des veaux en fonction des différentes
+                            périodes de l’année.
+                        </li>
+                        <li>Le deuxième graphe représente le taux de mortalité à la naissance des veaux en fonction des différentes
+                            périodes de l’année.
+                        </li>
+                        <li>Ensuite, le vendeur de dose d’insémination nous propose de racheter des doses d’un taureau ou d’un
+                            enfant d’un taureau que nous avons déjà eu. Nous allons utiliser les données des veaux déjà nés pour
+                            évaluer le taureau au sein de notre ferme. Le graphe représentera, par mois, le nombre de veau né de ce
+                            taureau, ainsi que les veaux de 2ème et de 3ème génération.
+                        </li>
+                        <li>Finalement, le dernier graphe montre les périodes de l’année durant lesquels les décès prématurés sont
+                            les plus fréquents.
+                        </li>
+                    </ul>
+                </header>
+                <!-- Charts -->
+                <div class="all_sections">
+                    <!-- 1er figure -->
+                    <section id="section_1">
+                        <h3>La naissance chez nos amis les vache une histoire lunatique ? (1.1)</h3>
+                        <p>Dans le monde agricole nombreux sont ceux qui se demande si la lune a un impact direct sur la naissance des veaux. Pour démontrer si cette croyance est vraie ou non, nous avons réalisé une petite enquête. Le graphique ci-dessous nous montre la pourcentage de vêlage dans la ferme pendant 28 jours.</p>
+                        <canvas id="chart1" width=60px height="30px"></canvas>
+                    </section>
+
+                    <!-- 2nd figure -->
+                    <section id="section_2">
+                        <h3>Variation du taux de veaux mort-né par période (3.1)</h3>
+                        <p>Malheureusement, il arrive que certains veaux meurent à la naissance. Cependant, si nous pouvions savoir à quels moments dans l'année ces naissances de veaux mort-né augmente, nous pourrions anticiper ces événements tragiques. Et peux-être même sauvé des veaux. Vaut mieux prevenir que guérir !</p>
+                        <canvas id="chart2" width="50px" height="30px"></canvas>
+                    </section>
+
+                    <!-- 3eme figure -->
+                    <section id="section_3">
+                        <h3>Evaluation des veaux en fonction des inséminations d'un Taureau (7.1)</h3>
+                        <p>Des vendeurs de doses d'inséminations nous propose des doses d'un taureau que nous avons déjà acheté auparavant. Ce serait quand même dommage de ne pas regarder l'état des veaux déjà engendré par cette précédente dose. Il faudra, tout d'abord, évaluer l'utilisation passée de ces doses. Le graphique, ci-dessous, représente donc le nombre par mois, de veau né de ce taureau ainsi que les veaux de la 2ème génération et de la 3ème génération.</p>
+                        <canvas id="chart3" width="50px" height="30px"></canvas>
+                    </section>
+
+                    <!-- 4eme figure -->
+                    <section id="section_4">
+                        <h3>Taux de décès prématurés par mois(4.1)</h3>
+                        <p>A coté des morts-nés nous pouvons aussi observer que certains veaux décèdent dans les premières semaines leur vie, c’est ce qu’on nomme un décès prématuré. Nous allons analyser quels sont les périodes de l’année ou ces décès sont les plus fréquents. </p>
+                        <canvas id="chart4" width="55px" height="30px"></canvas>
+                    </section>
+
+                    <!-- contact -->
+                    <section id="section_5" class="contact">
+                        <h3>Participants</h3>
+                        <ul>
+                            <li>Victoria Muguerza - Noma : 38021800 - victoria.muguerza@student.uclouvain.be</li>
+                            <li>Emile Villette - Noma : 10992000: - emile.villette@student.uclouvain.be</li>
+                            <li>François Thibaut de Maisières - Noma : 41191800 - françois.thibaut@student.uclouvain.be</li>
+                            <li>Théo Lecarme - Noma : 10082000 - theo.lecarme@student.uclouvain.be</li>
+                        </ul>
+                    </section>
+                </div>
+                <hr>
+
+                <!-- footer -->
+                <footer>
+                    <h4>Travail réalisé dans le cadre du projet 2</h4>
+                </footer>
+            </main>
+    </div>
+
+    <script>
+        // chart 1
+        let ctx1 = document.getElementById("chart1").getContext("2d")
+        let chart1 = new Chart(ctx1, {
+            type: "bar",
+            data: {
+                labels: {{labels[0] | safe}},
+                datasets: [{
+                    label: "Pourcentage de naissances (en fonction de l'avancée dans la phase lunaire)",
+                    backgroundColor: 'rgb(64,224,208)',
+                    borderColor: 'rgb(75, 192, 192)',
+                    data: {{values[0] | safe}}
+                }]
+            }
+        });
+        // chart 2
+        let ctx2 = document.getElementById("chart2").getContext("2d")
+        let chart2 = new Chart(ctx2, {
+            type: "bar",
+            data: {
+                labels: {{labels[1] | safe}},
+                datasets: [{
+                    label: "Nombre de morts-nés",
+                    backgroundColor: 'rgb(64,224,208)',
+                    hoverBackgroundColor: 'rgb(0,128,128)',
+                    data: {{ values[1] | safe }},
+                }]
+            }
+        });
+        // chart 3
+        let ctx3 = document.getElementById("chart3").getContext("2d")
+        let chart3 = new Chart(ctx3, {
+            type: "line",
+            data: {
+                labels: ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+                datasets: [{
+                    label: "Naissances",
+                    backgroundColor: 'rgb(64,224,208)',
+                    hoverBackgroundColor: 'rgb(0,128,128)',
+                    data: {{ values[2] | safe }},
+                }]
+            }
+        });
+        // chart 4
+        let ctx4 = document.getElementById("chart4").getContext("2d")
+        let chart4 = new Chart(ctx4, {
+            type: "bar",
+            data: {
+                labels: {{ labels[2] | safe }},
+                datasets: [{
+                    label: "Nombre de décès prématurés",
+                    backgroundColor: 'rgb(64,224,208)',
+                    hoverBackgroundColor: 'rgb(0,128,128)',
+                    data: {{ values[3] | safe }},
+                }]
+            }
+        });
+    </script>
+</body>
+</html>
