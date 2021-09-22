@@ -1,4 +1,4 @@
-# Projet P2 - La ferme des 3 Chênes 🐮
+La ferme des 3 Chênes 🐮
 
 ## Table des matières
 1. [Installation Linux et macOS](#Installation-Linux-et-macSO)
@@ -12,11 +12,11 @@
 
 Ouvrez le terminal de commande et clonez le projet en local avec la commande 
 ```
-git clone https://github.com/Emilevillette/Projet2-P2
+git clone https://github.com/francoistm/charts-flask
 ```
 déplacez-vous dans le projet avec la commande
 ```
-cd /Projet2-P2
+cd /charts-flask
 ```
 Créez un environnement virutel (venv) avec la commande
 ```
@@ -46,11 +46,11 @@ Et voilà!
 
 Ouvrez l'invité de commande et clonez le projet en local avec la commande 
 ```
-git clone https://github.com/Emilevillette/Projet2-P2
+git clone https://github.com/francoistm/charts-flask
 ```
 déplacez-vous dans le projet avec la commande
 ```
-cd /Projet2-P2
+cd /charts-flask
 ```
 Créez un environnement virutel (venv) avec la commande
 ```
