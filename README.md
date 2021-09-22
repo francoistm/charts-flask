@@ -1,4 +1,4 @@
-La ferme des 3 Chênes 🐮
+# La ferme des 3 Chênes 🐮
 
 ## Table des matières
 1. [Installation Linux et macOS](#Installation-Linux-et-macSO)
