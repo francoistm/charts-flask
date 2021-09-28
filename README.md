@@ -6,6 +6,11 @@
 3. [Figure](#Figure)
 4. [Context](#Context)
 
+<div float="left">
+  <img src="https://github.com/francoistm/charts-flask/blob/main/Screenshot1.png" width="300" />
+  <img src="https://github.com/francoistm/charts-flask/blob/main/Screenshot2.png" width="300" /> 
+</div>
+
 ## Installation Linux et macOS
 #### /!\ Important avant de commancer /!\ 
 > Avant de commencer, vérifier que vous avez bien installé python3, git, pip (il est nativement présent dans python3) et virtualenv sur votre ordinateur.
